@@ -9,34 +9,22 @@ import HorasTrabalhadas.CalcularHorasTrabalhadas2;
 
 
 public class testeHorasTrabalhadas {
-    CalcularHorasTrabalhadas2 c;
+    CalcularHorasTrabalhadas2 HT;
     
        
-   /* @Test
-    public void receberHorasTrabalhadasExibirCalculo(){
-        c = new CalcularHorasTrabalhadas(); */
-    //   /*1*/assertEquals(4.00, c.calculaHoras(8.00, 12.00), 0);
-    //   /*2*/assertEquals(5.00, c.calculaHoras(13.00, 18.00), 0);
-    //   /*3*/assertEquals(11.50, c.calculaHoras(8.00, 18.00), 0);
-    //   /*4*/assertEquals(5.50, c.calculaHoras(14.00, 19.00), 0);
-    //   /*5*/assertEquals(7.00, c.calculaHoras(6.00, 12.00), 0);
-    //   /*6*/assertEquals(9.50, c.calculaHoras(6.00, 13.00), 0);
-    //   /*7*/assertEquals(9.00, c.calculaHoras(17.00, 23.00), 0);
-    //   /*8*/assertEquals(17.50, c.calculaHoras(00.00, 09.00), 0);
 
-    
     
     @Test
     public void receberHorasTrabalhadasExibirCalculo2(){
-        c = new CalcularHorasTrabalhadas2(); 
-        /*1*/assertEquals(4.00, c.calcularHoras2(8.00, 12.00), 0);
-        /*2*/assertEquals(5.00, c.calcularHoras2(13.00, 18.00), 0);
-        /*3*/assertEquals(11.50, c.calcularHoras2(8.00, 18.00), 0);
-        /*4*/assertEquals(5.50, c.calcularHoras2(14.00, 19.00), 0);
-        /*5*/assertEquals(7.00, c.calcularHoras2(6.00, 12.00), 0);
-        /*6*/assertEquals(9.50, c.calcularHoras2(6.00, 13.00), 0);
-        /*7*/assertEquals(9.00, c.calcularHoras2(17.00, 23.00), 0);
-        /*8*/assertEquals(17.50, c.calcularHoras2(00.00, 09.00), 0);
+        HT = new CalcularHorasTrabalhadas2(); 
+        /*1*/assertEquals(4.0f, HT.calcularHT(8.0f, 12.0f), 0);
+        /*2*/assertEquals(5.0f, HT.calcularHT(13.0f, 18.0f), 0);
+        /*3*/assertEquals(11.5f, HT.calcularHT(8.0f, 18.0f), 0);
+        /*4*/assertEquals(5.5f, HT.calcularHT(14.0f, 19.0f), 0);
+        /*5*/assertEquals(7.0f, HT.calcularHT(6.0f, 12.0f), 0);
+        /*6*/assertEquals(9.5f, HT.calcularHT(6.0f, 13.0f), 0);
+        /*7*/assertEquals(9.0f, HT.calcularHT(17.0f, 23.0f), 0);
+        /*8*/assertEquals(17.5f, HT.calcularHT(0.0f, 09.0f), 0);
     }
     
 }
